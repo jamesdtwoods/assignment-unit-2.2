@@ -136,10 +136,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX values for colorOne and colorTwo are switched
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX need to also set value of colorTwo = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -150,9 +152,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// POSSIBLE FIX wouldn't a variable like 'time' be likely to change, and therefore be create with 'let'
 let temp = 40;
 const time = 4;
 
+// FIX need to check whether temp AND time are correct, need operator '&&'
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -166,6 +170,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX the console.log statements should be switched, so that if the conditional is true the console.log returns 'enter'
 if(minAge <= age) {
   console.log('no entry');
 } else {
