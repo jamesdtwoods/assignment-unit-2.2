@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable called 'name', assign value of 'Dane'
+// check to see if the value of 'name' is EXACTLY 'Mary'
+// if it is console.log 'Hi, Mary!' -> but it is not, on to the next conditional
+// since the value is not 'Mary' console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable called 'secret'
+// create variable called 'code' give a numeric value of 123
+// check to see if the value of 'code' is EXACTLY equal to 123
+// if it is equal to 123 assign value of 'super' to variable 'secret' 
+// also, since it is equal to 123 multiply that value for 'code' by 2, giving 'code' a value of 246
+// check to see if value of 'code' is greater than 250 -> since it is not, do nothing
+// console.log 'super'
 
 //CODE
 /*
@@ -70,10 +73,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable called 'isStudent' give a boolean value of true
+// create variable called 'age' give a numeric value of 34
+// create variable called 'zip' give a numeric value of 55407
+// check to see if variable 'isStudent' is true AND if 'zip' is greater than 80000 -> our 'isStudent' is true, but our 'zip' is less than 80000
+// check to see if 'isStudent' is false OR if 'age' is less than 30 -> our 'isStudent' is true and our 'age' is greater than 30
+// check to see if 'isStudent' is true -> it is
+// console.log 'Welcome to Prime!'
 
 //CODE
 /*
